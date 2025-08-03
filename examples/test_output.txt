@@ -1,0 +1,7 @@
+=== Contextual Signature for Mariam ===
+Canonical input:
+CH-0001||Mariam Issa||12||F||Sudanese||Separated||Khadija||Reunification||2025-01-01||2025-12-31||AU|UNHCR
+Contextual hash:
+9d7f3ab41e038c2a134f6f28271dc47fa8013c39c2872bb639c763e1c64fa11c
+Kinship hash:
+2bcf1c8e1c2a36ea49b84c845b0a1529c2e419b39f3e51bb16e3a5f86b2ddcd7

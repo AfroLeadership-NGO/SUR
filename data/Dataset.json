@@ -1,0 +1,42 @@
+    \begin{tcolorbox}[
+    title=CH-0021 Legal Conflict Case, 
+    colback=gray!5, 
+    colframe=black!40, 
+    breakable,
+    fontupper=\footnotesize, % Taille de police réduite
+    boxsep=1pt, % Réduction de l'espace interne
+    left=2pt,right=2pt % Marges internes réduites
+]
+\texttt{\scriptsize
+        \{
+        "id": "CH-0021",
+        "name": "LegalConflictCase",
+        "legal\_basis": ["African Charter", "National Security Law 2023"],
+        "conflict\_resolution": "Priority: Regional > National"
+        \}
+        \{ "children": 
+        [ 
+         \{"id": "CH-0001", "name": "Mariam", "age": 10, "gender": "female", "nationality": "Cameroonian", "status": "unaccompanied", "guardian": "NGO Alpha", "authorized\_action": "relocation", "valid\_from": "2025-06-15", "valid\_until": "2025-12-31", "legal\_basis": ["Regional Asylum Law", "Geneva Convention"]\},
+         \{"id": "CH-0002", "name": "Omar", "age": 12, "gender": "male", "nationality": "Syrian", "status": "unaccompanied", "guardian": "UNHCR partner", "authorized\_action": "medical\_transfer", "valid\_from": "2025-05-10", "valid\_until": "2025-11-10", "legal\_basis": ["UN CRC", "Host Country Protection Framework"]\},
+         \{"id": "CH-0003", "name": "Amina", "age": 9, "gender": "female", "nationality": "Afghan", "status": "unaccompanied", "guardian": "Local Red Crescent", "authorized\_action": "family\_reunification", "valid\_from": "2025-07-01", "valid\_until": "2026-01-01", "legal\_basis": ["Family Unity Protocol", "National Child Welfare Act"]\}, 
+         \{"id": "CH-0004", "name": "Samuel", "age": 11, "gender": "transgender\_male", "nationality": "Cameroonian", "status": "unaccompanied", "guardian": "Caritas Yaoundé", "authorized\_action": "relocation", "valid\_from": "2025-07-10", "valid\_until": "2025-12-10", "legal\_basis": ["African Charter on the Rights of the Child"]\},
+         \{"id": "CH-0005", "name": "Fatima", "age": 8, "gender": "female", "nationality": "Palestinian", "status": "unaccompanied", "guardian": "UNRWA", "authorized\_action": "resettlement", "valid\_from": "2025-04-01", "valid\_until": "2025-10-01", "legal\_basis": ["Geneva Convention", "UN CRC"]\}, 
+         \{"id": "CH-0006", "name": "Youssef", "age": 13, "gender": "male", "nationality": "Syrian", "status": "unaccompanied", "guardian": "Save the Children", "authorized\_action": "education\_enrollment", "valid\_from": "2025-03-01", "valid\_until": "2025-09-01", "legal\_basis": ["UN CRC"]\},
+         \{"id": "CH-0007", "name": "Anita", "age": 10, "gender": "female", "nationality": "Congolese", "status": "unaccompanied", "guardian": "NGO Africa Humanis", "authorized\_action": "medical\_transfer", "valid\_from": "2025-06-01", "valid\_until": "2025-12-31", "legal\_basis": ["DRC Child Protection Law"]\}, 
+         \{"id": "CH-0008", "name": "Bogdan", "age": 12, "gender": "male", "nationality": "Ukrainian", "status": "unaccompanied", "guardian": "Red Cross Ukraine", "authorized\_action": "temporary\_housing", "valid\_from": "2025-02-15", "valid\_until": "2025-08-15", "legal\_basis": ["EU Child Directive"]\}, 
+         \{"id": "CH-0009", "name": "Layla", "age": 9, "gender": "female", "nationality": "Palestinian", "status": "unaccompanied", "guardian": "UNRWA", "authorized\_action": "school\_enrollment", "valid\_from": "2025-01-10", "valid\_until": "2025-07-10", "legal\_basis": ["UN CRC"]\}, 
+         \{"id": "CH-0010", "name": "Issa", "age": 11, "gender": "male", "nationality": "Malian", "status": "unaccompanied", "guardian": "Terre des Hommes", "authorized\_action": "relocation", "valid\_from": "2025-04-01", "valid\_until": "2025-10-01", "legal\_basis": ["African Charter"]\}, 
+         \{"id": "CH-0011", "name": "Svitlana", "age": 13, "gender": "female", "nationality": "Ukrainian", "status": "unaccompanied", "guardian": "UNHCR Ukraine", "authorized\_action": "healthcare\_access", "valid\_from": "2025-03-20", "valid\_until": "2025-09-20", "legal\_basis": ["EU Child Directive"]\},
+         \{"id": "CH-0012", "name": "Zahra", "age": 8, "gender": "non\_binary", "nationality": "Sudanese", "status": "unaccompanied", "guardian": "NGO Alpha", "authorized\_action": "family\_reunification", "valid\_from": "2025-05-01", "valid\_until": "2025-11-01", "legal\_basis": ["Geneva Convention"]\}, 
+         \{"id": "CH-0013", "name": "Ali", "age": 12, "gender": "male", "nationality": "Syrian", "status": "unaccompanied", "guardian": "International Rescue Committee", "authorized\_action": "education\_enrollment", "valid\_from": "2025-06-01", "valid\_until": "2025-12-01", "legal\_basis": ["UN CRC"]\},
+         \{"id": "CH-0014", "name": "Nour", "age": 10, "gender": "female", "nationality": "Palestinian", "status": "unaccompanied", "guardian": "UNRWA", "authorized\_action": "medical\_transfer", "valid\_from": "2025-07-01", "valid\_until": "2026-01-01", "legal\_basis": ["Geneva Convention"]\}, 
+         \{"id": "CH-0015", "name": "Koffi", "age": 11, "gender": "male", "nationality": "Ivorian", "status": "unaccompanied", "guardian": "NGO Afrique Enfance", "authorized\_action": "school\_enrollment", "valid\_from": "2025-06-15", "valid\_until": "2025-12-15", "legal\_basis": ["African Charter"]\}, 
+         \{"id": "CH-0016", "name": "Tatiana", "age": 9, "gender": "female", "nationality": "Ukrainian", "status": "unaccompanied", "guardian": "Caritas", "authorized\_action": "relocation", "valid\_from": "2025-04-20", "valid\_until": "2025-10-20", "legal\_basis": ["EU Child Directive"]\}, 
+         \{"id": "CH-0017", "name": "Abdoulaye", "age": 13, "gender": "male", "nationality": "Burkinabé", "status": "unaccompanied", "guardian": "Red Cross Burkina", "authorized\_action": "temporary\_housing", "valid\_from": "2025-03-01", "valid\_until": "2025-09-01", "legal\_basis": ["African Charter"]\},
+         \{"id": "CH-0018", "name": "Salma", "age": 10, "gender": "transgender\_female", "nationality": "Palestinian", "status": "unaccompanied", "guardian": "UNRWA", "authorized\_action": "family\_reunification", "valid\_from": "2025-02-01", "valid\_until": "2025-08-01", "legal\_basis": ["Geneva Convention"]\},
+         \{"id": "CH-0019", "name": "Bakari", "age": 12, "gender": "male", "nationality": "Chadian", "status": "unaccompanied", "guardian": "Médecins Sans Frontières", "authorized\_action": "medical\_transfer", "valid\_from": "2025-05-15", "valid\_until": "2025-11-15", "legal\_basis": ["African Charter"]\}, 
+         \{"id": "CH-0020", "name": "Ivanna", "age": 8, "gender": "female", "nationality": "Ukrainian", "status": "unaccompanied", "guardian": "UNICEF Ukraine", "authorized\_action": "education\_enrollment", "valid\_from": "2025-06-01", "valid\_until": "2025-12-01", "legal\_basis": ["EU Child Directive"]\} 
+         ] 
+         \}
+        }
+\end{tcolorbox}
